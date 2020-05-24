@@ -1,0 +1,33 @@
+* {
+margin: 0;
+padding: 0;
+list-style: none;
+font-family: '微軟正黑體';
+box-sizing: border-box;
+transition: 0.5s
+}
+
+#page-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#zen-intro{
+    background-color: rgba(0,255,0,0.5);
+    width: 50%;
+}
+
+#banner {
+    background-color: rgba(255,0,0,0.5);
+}
+
+#zen-supporting{
+    order: 4;
+    width: 50%;
+    background-color: rgba(0,255,0,0.5);
+}
+
+#sidebar{
+    width: 50%;
+    background-color: rgba(0,0,255,0.5);
+}
