@@ -55,11 +55,11 @@ transition: 0.5s
     text-align: center;
     color: goldenrod;
     z-index: -2;
-    padding: 8rem 9rem 0 0;
+    padding: 5rem 9rem 0 0;
     line-height: 6rem;
     filter: drop-shadow(15px 5px 10px black);
     text-shadow: 1px 1px 1px #000, -1px -1px 1px #fff;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 #banner h1{
@@ -98,7 +98,7 @@ abbr::before{
 
 #zen-summary p:first-child{
     font-family: 'Rye', cursive;
-    font-size: 2.4rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -116,8 +116,9 @@ abbr::before{
 
 #zen-preamble h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1rem 0;
+    white-space: nowrap;
 }
 
 #zen-preamble p{
@@ -142,8 +143,12 @@ abbr::before{
 
 #zen-supporting h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 1rem 0;
+}
+
+#zen-supporting p{
+    text-align: justify;
 }
 
 #zen-supporting abbr{
@@ -164,7 +169,7 @@ abbr::before{
 
 #zen-supporting #zen-benefits h3::before{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    content: "IV .";
+    content: "IV ."; 
     display: inline-block;
 }
 
@@ -177,13 +182,24 @@ abbr::before{
 #footer{
     position: fixed;
     top: 20%;
-    right: 0;
-    background-color: rgb(255,255,0);
+    right: 0%;
+    display: flex;
+    width: 300px;
+    padding-right: 1rem;
+    justify-content: space-between;
 }
 
-#sidebar{
+#footer a{
+    background-color: yellow;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    border:1px solid black ;
+}
+
+/* #sidebar{
     background-color: rgba(0,0,255);
     position: fixed;
     bottom: 0;
     right: 5%;
-}
+} */
